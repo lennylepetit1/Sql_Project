@@ -13,5 +13,6 @@
   city TEXT,
   sport TEXT,
   event TEXT,
-  medal TEXT
+  medal TEXT,
+  PRIMARY KEY("id")
 );
