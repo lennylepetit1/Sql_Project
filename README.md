@@ -1,6 +1,6 @@
 # Sql_Project
 Nous avons trouvé une base de données sur Kaggle qui reprend les participants aux JO depuis 1900, avec leur pays d'origine, leur sports, leur âge, taille, poids, si ils ont reçu une médaille, etc.
-Notre objectif est d'effectuer des requêtes sur cette base de données.
+Notre objectif est d'effectuer des requêtes sur cette base de données que nous avons limié pour aller de 2000 à 2016.
 
 1ère requête : Requête Simple - Liste des athlètes avec leurs informations.
 
