@@ -1,18 +1,17 @@
  CREATE TABLE base_de_table (
   id INTEGER,
-  name TEXT,
+  "name" TEXT NOT NULL,
   sex TEXT,
   age INTEGER,
   height INTEGER,
-  weight INTEGER,
+  "weight" INTEGER,
   team TEXT,
   noc TEXT,
   games TEXT,
-  year INTEGER,
+  "year" INTEGER,
   season TEXT,
   city TEXT,
   sport TEXT,
-  event TEXT,
-  medal TEXT,
-  PRIMARY KEY("id")
+  "event" TEXT,
+  medal TEXT
 );
