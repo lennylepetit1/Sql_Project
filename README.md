@@ -22,3 +22,7 @@ Notre objectif est d'effectuer des requêtes sur cette base de données que nous
 9ème requête : Requête Complexe - Athlètes ayant participé à des événements d'hiver ou d'été et leurs médailles
 
 10ème requête : Requête avec Filtrage Avancé - Athlètes ayant remporté plusieurs médailles d'or dans différents événements
+
+11ème requête : Les 3 athlètes les plus âgés ayant remporté une médaille d'or
+
+12ème requête : Hauteur moyenne des hommes ayant remporté une médaille au saut à la perche
