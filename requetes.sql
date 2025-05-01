@@ -76,14 +76,19 @@ WHERE p.medal = 'Gold'
 
 /* Run Time: real 0.010 user 0.006688 sys 0.002281 */
 
-/* Requete 9 - Requête Complexe - Athlètes ayant participé à des événements d'hiver ou d'été et leurs médailles */
+/* Requête 9 - Athlètes ayant participé à des événements d'hiver et ayant remporté une médaille d'or */
 
-SELECT a.name, g.season, p.medal
+SELECT DISTINCT a.name, a.sex, g.year, g.city, e.event_name, s.sport_name
 FROM participations p
 JOIN athletes a ON p.athlete_id = a.id
-JOIN games g ON p.game_id = g.id;
+JOIN games g ON p.game_id = g.id
+JOIN events e ON p.event_id = e.id
+JOIN sport s ON e.sport_id = s.id
+WHERE g.season = 'Winter' 
+AND p.medal = 'Gold'
+ORDER BY g.year DESC, a.name;
 
-/* Run Time: real 2.490 user 0.109523 sys 0.183951 */
+/* Run Time: real 0.113 user 0.008139 sys 0.003018 */
 
 /* Requete 10 - Requête avec Filtrage Avancé - Athlètes ayant remporté plusieurs médailles d'or dans différents événements */
 
