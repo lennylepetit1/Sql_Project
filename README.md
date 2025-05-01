@@ -19,7 +19,7 @@ Notre objectif est d'effectuer des requêtes sur cette base de données que nous
 
 8ème requête : Requête avec Sous-Requête - Athlètes ayant remporté une médaille d'or dans un événement spécifique
 
-9ème requête : Requête Complexe - Athlètes ayant participé à des événements d'hiver ou d'été et leurs médailles
+9ème requête : Requête Complexe - Athlètes ayant participé à des événements d'hiver et ayant remporté une médaille d'or
 
 10ème requête : Requête avec Filtrage Avancé - Athlètes ayant remporté plusieurs médailles d'or dans différents événements
 
